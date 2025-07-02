@@ -1,0 +1,470 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "What's up?",
+        "Hey there",
+        "Yo",
+        "Hi Stella",
+        "Greetings",
+        "Howdy",
+        "What's going on?",
+        "How's everything?",
+        "Hello bot",
+        "Hi chatbot",
+        "Hey Stella",
+        "Hey assistant"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Ask me anything about cricket.",
+        "Hey! Ready to talk cricket?",
+        "Greetings! How can I help?",
+        "Hi! I'm your cricket assistant."
+      ]
+    },
+    {
+      "tag": "what_is_run",
+      "patterns": [
+        "What is a run?",
+        "How do players score runs?",
+        "Explain runs in cricket",
+        "Runs meaning?",
+        "How are runs counted?",
+        "What counts as a run?",
+        "Do extras count as runs?",
+        "How does a batsman score?"
+      ],
+      "responses": [
+        "A run is the basic unit of scoring. Batsmen score runs by running between the wickets or hitting boundaries.",
+        "Runs are scored when both batsmen run to the opposite ends after hitting the ball or if the ball reaches the boundary."
+      ]
+    },
+    {
+      "tag": "boundary_rules",
+      "patterns": [
+        "What is a boundary?",
+        "Explain 4s and 6s",
+        "How is a four scored?",
+        "What is a six in cricket?",
+        "Boundary meaning?",
+        "What does a six mean?",
+        "When does a batsman get six runs?"
+      ],
+      "responses": [
+        "A boundary refers to hitting the ball to or over the edge of the field. 4 runs if it touches ground first, 6 if it goes over without touching the ground.",
+        "Four is scored if the ball touches the ground and crosses the boundary; six is scored if it clears the boundary in the air."
+      ]
+    },
+    {
+      "tag": "strike_rate",
+      "patterns": [
+        "What is strike rate?",
+        "Strike rate in cricket?",
+        "How to calculate strike rate?",
+        "What does strike rate mean for batsmen?",
+        "Batting strike rate explanation"
+      ],
+      "responses": [
+        "Strike rate is the number of runs a batsman scores per 100 balls faced. It's calculated as (runs/balls)*100.",
+        "A high strike rate means the batsman is scoring quickly."
+      ]
+    },
+    {
+      "tag": "batting_average",
+      "patterns": [
+        "What is batting average?",
+        "How to calculate batting average?",
+        "Batting average meaning",
+        "Explain average of a batsman",
+        "What does batting average tell?"
+      ],
+      "responses": [
+        "Batting average is the total runs scored divided by the number of times the batsman has been out.",
+        "It shows the consistency of a batsman. Higher average means better performance."
+      ]
+    },
+    {
+      "tag": "century_half_century",
+      "patterns": [
+        "What is a century in cricket?",
+        "What is a half-century?",
+        "How many runs is a century?",
+        "What is a 100 in cricket?",
+        "Meaning of 50 and 100 runs"
+      ],
+      "responses": [
+        "A half-century is when a batsman scores 50 runs. A century is when a batsman scores 100 runs in an innings.",
+        "Scoring 100 runs is called a century; scoring 50 is called a half-century."
+      ]
+    },
+    {
+      "tag": "opening_batsman",
+      "patterns": [
+        "Who is an opening batsman?",
+        "What does an opener do?",
+        "Who bats first in cricket?",
+        "Role of opening batsmen",
+        "Importance of openers"
+      ],
+      "responses": [
+        "Opening batsmen are the first two players to bat. Their role is to face the new ball and provide a solid start.",
+        "Openers face fresh bowlers and the hardest ball, so technique and patience are crucial."
+      ]
+    },
+    {
+      "tag": "partnership",
+      "patterns": [
+        "What is a partnership in cricket?",
+        "Explain batting partnership",
+        "How do two batsmen form a partnership?",
+        "Partnership meaning in cricket"
+      ],
+      "responses": [
+        "A partnership is the total number of runs scored between two batsmen before a wicket falls.",
+        "Strong partnerships help build innings and momentum."
+      ]
+    },
+    {
+      "tag": "run_out",
+      "patterns": [
+        "What is a run out?",
+        "How does run out happen?",
+        "Can a batsman get out while running?",
+        "Explain run out rule"
+      ],
+      "responses": [
+        "A batsman is run out if the fielding team breaks the stumps with the ball while the batsman is outside the crease during a run.",
+        "It usually happens due to miscommunication or a direct hit from a fielder."
+      ]
+    },
+    {
+      "tag": "overthrow_runs",
+      "patterns": [
+        "What is an overthrow?",
+        "Do overthrows give extra runs?",
+        "How do batsmen score in overthrows?",
+        "Explain overthrow rule"
+      ],
+      "responses": [
+        "An overthrow occurs when a throw from a fielder misses the target, allowing the batsmen to run more. Extra runs are added.",
+        "If the ball reaches the boundary after an overthrow, four runs are added on top of the completed runs."
+      ]
+    },
+    {
+      "tag": "bowling_types",
+      "patterns": [
+        "What are types of bowlers?",
+        "Explain fast bowling",
+        "What is spin bowling?",
+        "Types of bowling in cricket",
+        "Difference between pace and spin bowling",
+        "Who is a bowler?",
+        "What does a bowler do?",
+        "Explain seam bowling"
+      ],
+      "responses": [
+        "There are mainly two types of bowlers: fast bowlers who rely on speed and spin bowlers who rely on spinning the ball.",
+        "Fast bowlers deliver the ball at high speed, while spin bowlers use wrist or finger spin to deceive the batsman."
+      ]
+    },
+    {
+      "tag": "bowling_deliveries",
+      "patterns": [
+        "What is a yorker?",
+        "Explain bouncer delivery",
+        "What is a doosra?",
+        "What is a googly?",
+        "Types of deliveries in bowling",
+        "What is a slower ball?",
+        "Explain off break and leg break",
+        "What is a full toss?"
+      ],
+      "responses": [
+        "A yorker is a delivery aimed at the batsman's feet, making it hard to hit.",
+        "A bouncer is a short-pitched ball that bounces near the batsman's head to intimidate or force a mistake.",
+        "A doosra and googly are types of spin deliveries that turn the opposite way to normal spins."
+      ]
+    },
+    {
+      "tag": "no_ball",
+      "patterns": [
+        "What is a no ball?",
+        "Explain no ball rule",
+        "When is no ball called?",
+        "Consequences of no ball",
+        "Can a batsman get out on a no ball?",
+        "No ball penalty"
+      ],
+      "responses": [
+        "A no ball is an illegal delivery, for example if the bowler's front foot crosses the crease or the ball is too high.",
+        "When a no ball is called, the batting team gets an extra run and the next ball is a free hit where the batsman cannot be out in most ways."
+      ]
+    },
+    {
+      "tag": "wide_ball",
+      "patterns": [
+        "What is a wide ball?",
+        "Explain wide ball rule",
+        "When does umpire call wide?",
+        "Consequences of wide ball",
+        "Can batsman get out on wide ball?"
+      ],
+      "responses": [
+        "A wide ball is a delivery that is too far from the batsman to hit, and it counts as an extra run to the batting side.",
+        "The ball must be re-bowled, and the batsman cannot be out except run out."
+      ]
+    },
+    {
+      "tag": "bowling_economy_average",
+      "patterns": [
+        "What is bowling economy?",
+        "Explain bowling average",
+        "How to calculate economy rate?",
+        "Difference between economy and average",
+        "What does a good bowling average mean?"
+      ],
+      "responses": [
+        "Bowling economy rate is runs conceded per over bowled.",
+        "Bowling average is runs conceded divided by wickets taken.",
+        "A lower bowling average and economy indicate better bowling performance."
+      ]
+    },
+    {
+      "tag": "dismissals",
+      "patterns": [
+        "How can a batsman get out?",
+        "Types of dismissals",
+        "What is LBW?",
+        "Explain caught out",
+        "What does stumped mean?",
+        "What is bowled?",
+        "Explain hit wicket dismissal",
+        "What is run out?",
+        "What is timed out dismissal?"
+      ],
+      "responses": [
+        "Batsmen can be dismissed by LBW, caught, bowled, run out, stumped, hit wicket, timed out, and more.",
+        "LBW means the ball hits the batsman's pads in line with the stumps and would have hit the stumps.",
+        "Caught means a fielder catches the ball on the full after the batsman hits it.",
+        "Stumped happens when the wicketkeeper removes the bails while the batsman is out of the crease.",
+        "Timed out means the next batsman did not arrive within the allowed time."
+      ]
+    },
+    {
+      "tag": "match_overs",
+      "patterns": [
+        "How many overs are in a cricket match?",
+        "Explain limited overs cricket",
+        "What is a Twenty20 match?",
+        "How long is an ODI?",
+        "Test match length",
+        "How many balls in an over?"
+      ],
+      "responses": [
+        "An over consists of 6 legal deliveries.",
+        "Limited overs matches have a fixed number of overs, such as 20 in T20 and 50 in ODI.",
+        "Test matches can last up to 5 days without a fixed number of overs."
+      ]
+    },
+    {
+      "tag": "powerplay",
+      "patterns": [
+        "What is a powerplay?",
+        "Explain powerplay rules",
+        "When is powerplay used?",
+        "Fielding restrictions in powerplay",
+        "What overs are powerplay in ODI?"
+      ],
+      "responses": [
+        "Powerplays are periods in limited overs cricket with fielding restrictions to encourage aggressive batting.",
+        "For example, in ODI the first 10 overs are a mandatory powerplay with only two fielders outside the 30-yard circle."
+      ]
+    },
+    {
+      "tag": "dlm_method",
+      "patterns": [
+        "What is DLS method?",
+        "Explain Duckworth-Lewis-Stern",
+        "How is target adjusted in rain?",
+        "What happens when match is interrupted?",
+        "How does DLS work?"
+      ],
+      "responses": [
+        "The DLS method adjusts the target score in rain-affected limited overs matches based on remaining overs and wickets.",
+        "It uses a mathematical formula to make a fair revised target for the team batting second."
+      ]
+    },
+    {
+      "tag": "follow_on",
+      "patterns": [
+        "What is follow on rule?",
+        "Explain follow on in cricket",
+        "When can a team enforce follow on?",
+        "How does follow on work?"
+      ],
+      "responses": [
+        "Follow on is when the team batting second is forced to bat again immediately if they trail by a large number of runs after their first innings.",
+        "This rule is usually enforced if the team batting first leads by 200 or more runs in a test match."
+      ]
+    },
+    {
+      "tag": "fielding_restrictions",
+      "patterns": [
+        "What are fielding restrictions?",
+        "Explain 30-yard circle",
+        "How many fielders allowed outside circle?",
+        "What is fielding circle in cricket?"
+      ],
+      "responses": [
+        "Fielding restrictions limit how many fielders can be outside the 30-yard circle during different phases of the game.",
+        "Typically, only two fielders are allowed outside during powerplays."
+      ]
+    },
+    {
+      "tag": "substitute_fielder",
+      "patterns": [
+        "What is a substitute fielder?",
+        "Can substitute bat or bowl?",
+        "When is substitute used?",
+        "Rules for substitute fielders"
+      ],
+      "responses": [
+        "A substitute fielder can replace an injured player temporarily but cannot bat, bowl or act as captain.",
+        "Substitutes are allowed only to field."
+      ]
+    },
+    {
+      "tag": "umpire_signals",
+      "patterns": [
+        "What are umpire signals?",
+        "Explain umpire hand signals",
+        "How does umpire signal six?",
+        "How does umpire signal out?",
+        "Meaning of umpire signals"
+      ],
+      "responses": [
+        "Umpires use specific hand signals to indicate decisions like out, six, four, no ball, wide, and bye.",
+        "For example, raising one arm straight up signals a six, crossing both arms signals out."
+      ]
+    },
+    {
+      "tag": "drs_system",
+      "patterns": [
+        "What is DRS?",
+        "Explain Decision Review System",
+        "When can teams use DRS?",
+        "How does DRS work?"
+      ],
+      "responses": [
+        "DRS is a technology-based system to review umpire decisions using video replays and ball tracking.",
+        "Teams can challenge decisions such as LBW or caught behind to get a second opinion."
+      ]
+    },
+    {
+      "tag": "third_umpire",
+      "patterns": [
+        "Who is third umpire?",
+        "Explain role of third umpire",
+        "When does third umpire decide?",
+        "What decisions does third umpire make?"
+      ],
+      "responses": [
+        "The third umpire uses TV replays to make decisions on run outs, stumpings, boundary calls, and close catches.",
+        "He assists the on-field umpires in making accurate decisions."
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "Tell me a joke",
+        "How are you?",
+        "What's your name?",
+        "Do you like cricket?",
+        "What can you do?",
+        "Who created you?",
+        "Are you a real person?",
+        "What's the weather like?"
+      ],
+      "responses": [
+        "I'm a cricket chatbot here to assist you with cricket rules!",
+        "Why did the cricket team go to the bakery? Because they needed more batter!",
+        "I'm doing great, thanks for asking!",
+        "I can help you understand cricket rules and answer your questions about the game."
+      ]
+    },
+    {
+      "tag": "lbw_rule",
+      "patterns": [
+        "Explain LBW rule",
+        "What is LBW in cricket?",
+        "How does LBW work?",
+        "When is a batsman LBW?"
+      ],
+      "responses": [
+        "LBW stands for Leg Before Wicket. A batsman is out LBW if the ball hits their pad in line with the stumps and would have hit the stumps if not for the pad."
+      ]
+    },
+    {
+      "tag": "timeout",
+      "patterns": [
+        "What is timed out?",
+        "Explain timeout rule in cricket",
+        "When is a batsman timed out?"
+      ],
+      "responses": [
+        "Timed out is a dismissal when the next batsman does not arrive at the crease within three minutes of the previous wicket."
+      ]
+    },
+    {
+      "tag": "penalties",
+      "patterns": [
+        "What are the penalties in cricket?",
+        "Explain cricket penalties",
+        "When is a team penalized in cricket?"
+      ],
+      "responses": [
+        "Penalties can occur for slow over rates, ball tampering, dissent, or illegal fielding positions, among others. Runs may be awarded to the opposition."
+      ]
+    },
+    {
+      "tag": "bye_legbye",
+      "patterns": [
+        "What is a bye in cricket?",
+        "Explain leg bye rule",
+        "Difference between bye and leg bye"
+      ],
+      "responses": [
+        "A bye is when the ball passes the batsman and wicketkeeper without contact and the batsmen run. A leg bye occurs when the ball hits the batsman's body (not bat) and they run."
+      ]
+    },
+    {
+      "tag": "compound_extras",
+      "patterns": [
+        "What if both no ball and wide happen?",
+        "Can a ball be both no ball and wide?",
+        "Explain combination of no ball and wide"
+      ],
+      "responses": [
+        "Yes, a ball can be both no ball and wide. The batting team gets runs for both extras and the delivery must be re-bowled."
+      ]
+    },
+    {
+      "tag": "types_of_wickets",
+      "patterns": [
+        "What are types of dismissals in cricket?",
+        "List ways a batsman can get out",
+        "Types of wickets in cricket"
+      ],
+      "responses": [
+        "Batsmen can be out by bowled, caught, LBW, run out, stumped, hit wicket, timed out, handled the ball, obstructing the field, or double hit."
+      ]
+    }
+  ]
+}
